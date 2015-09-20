@@ -1,11 +1,3 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
 ## Loading and preprocessing the data
 Unzip file(assuming zip file exists at the same directory as this markdown) and overwrite extracted content  
 Then preprocess date, change class from factor to date
@@ -106,6 +98,7 @@ hist(sumFillStepsDay$steps, main = title4, xlab="Total Steps")
 ```
 
 ![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png) 
+  
 At first, you can see that there is not much different between with NA and without NA's figure, but if you look closely there are several differences. These also shown when comparing the mean and median values.
 
 ```r
